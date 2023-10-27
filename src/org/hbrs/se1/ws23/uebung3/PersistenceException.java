@@ -23,6 +23,6 @@ public class PersistenceException extends Exception {
      * of Type 'ImplementationNotAvailable'. Re-throw the new exception e.g. to a client
      */
     public enum ExceptionType {
-        ImplementationNotAvailable, ConnectionNotAvailable, NoStrategyIsSet
+        ImplementationNotAvailable, ConnectionNotAvailable, InvalidDataFormat, NoDataAvailable, NoStrategyIsSet
     }
 }
